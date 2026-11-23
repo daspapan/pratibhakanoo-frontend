@@ -25,7 +25,7 @@ const en = {
   } satisfies Record<CategoryId | "all", string>,
   stories: {
     title: "New stories",
-    seeAll: "See all on YouTube",
+    seeAll: "See all on Instagram",
     play: "Play",
     empty: "New stories in this shelf soon.",
     min: "min",

@@ -18,8 +18,9 @@ export interface Story {
   durationMin?: number;
   /** Optional mp3 in /public/audio. If missing, play opens YouTube. */
   audioUrl?: string;
-  youtubeUrl: string;
+  youtubeUrl?: string;
   thumbnail?: string;
+  instagramUrl?: string;
 }
 
 export type SessionTypeId = "birthday" | "school" | "society" | "online";

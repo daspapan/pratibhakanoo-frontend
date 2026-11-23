@@ -1,6 +1,8 @@
 import type { Category, Story } from "@/types";
 
 export const CHANNEL_URL = "https://www.youtube.com/@pratibhakanoo07";
+export const IG_KIDS = "https://www.instagram.com/story_with_pratibha/reel";
+export const IG_POETRY = "https://www.instagram.com/nature_everybit/reel";
 
 export const SOCIAL_LINKS = {
   youtube: CHANNEL_URL,
@@ -19,6 +21,15 @@ export const CATEGORIES: Category[] = [
 // Kuckle and "four voices" are from her Instagram. The rest are samples.
 // TODO: replace titles, youtubeUrl and durations with the real videos.
 export const STORIES: Story[] = [
+  {
+    id: "Df94PH5S9TE",
+    thumbnail: "/images/stories/Df94PH5S9TE.webp",
+    title: "Kuckle Starts School",
+    kicker: "Kuckle's Adventures · Episode 4",
+    category: "moral",
+    language: "English",
+    instagramUrl: `${IG_KIDS}/Df94PH5S9TE/`,
+  },
   {
     id: "kuckle-ep4",
     thumbnail: "/images/stories/kuckle-ep4.webp",
@@ -56,7 +67,7 @@ export const STORIES: Story[] = [
     youtubeUrl: CHANNEL_URL,
   },
   {
-    id: "moms-1",
+    id: "DI6Vky4MlmO",
     thumbnail: "/images/stories/moms-to-be.webp",
     title: "A story for the little one on the way",
     kicker: "For moms-to-be",

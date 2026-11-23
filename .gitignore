@@ -158,7 +158,6 @@ vite.config.ts.timestamp-*
 
 
 IMAGE_PROMPTS.md
-public/images/Whimsical Turtle’s Magical Storybook.png
-public/images/og-image.png
+public/images/*.png
 public/apple-touch-icon.png@1x.png
 public/icon.png@1x.png
