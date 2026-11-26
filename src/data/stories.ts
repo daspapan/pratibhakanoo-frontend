@@ -24,6 +24,16 @@ export const CATEGORIES: Category[] = [
 // TODO: replace titles, youtubeUrl and durations with the real videos.
 export const STORIES: Story[] = [
   {
+    id: "DgNN2rnpGqe",
+    publishedAt: "2026-11-26",          // Instagram post date, see question 1
+    thumbnail: "/images/stories/DgNN2rnpGqe.webp",
+    title: "My Promise to Working Moms",
+    kicker: "Story with Pratibha · Welcome", // not a series episode
+    category: "moms",              // guess, see question 2
+    language: "English",
+    instagramUrl: `${IG_KIDS}/DgNN2rnpGqe/`,
+  },
+  {
     id: "Df94PH5S9TE",
     publishedAt: "2026-11-22",
     thumbnail: "/images/stories/Df94PH5S9TE.webp",
