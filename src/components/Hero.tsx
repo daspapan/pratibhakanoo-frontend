@@ -2,7 +2,7 @@
 
 import { useLanguage } from "@/context/LanguageContext";
 import { usePlayer } from "@/context/PlayerContext";
-import { STORIES } from "@/data/stories";
+import { STORIES_NEWEST } from "@/data/stories";
 import { PlayIcon } from "./Icons";
 import SmartImage from "./SmartImage";
 
@@ -18,7 +18,7 @@ const STARS = [
 export default function Hero() {
   const { t } = useLanguage();
   const { play } = usePlayer();
-  const tonight = STORIES[0];
+  const tonight = STORIES_NEWEST[0];
 
   return (
     <section id="top" className="grid gap-5 px-5 pt-7 md:grid-cols-2 md:items-center md:gap-10 md:pt-12">

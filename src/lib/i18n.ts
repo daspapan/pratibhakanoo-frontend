@@ -22,6 +22,7 @@ const en = {
     rhymes: "Rhymes",
     moral: "Moral stories",
     moms: "For moms-to-be",
+    tips: "Tips & tricks",
   } satisfies Record<CategoryId | "all", string>,
   stories: {
     title: "New stories",
@@ -113,6 +114,7 @@ const hi: Dictionary = {
     rhymes: "कविताएँ",
     moral: "नैतिक कहानियाँ",
     moms: "होने वाली माँओं के लिए",
+    tips: "टिप्स और ट्रिक्स",
   },
   stories: {
     title: "नई कहानियाँ",

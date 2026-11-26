@@ -1,6 +1,6 @@
 export type Lang = "en" | "hi";
 
-export type CategoryId = "bedtime" | "rhymes" | "moral" | "moms";
+export type CategoryId = "bedtime" | "rhymes" | "moral" | "moms" | "tips";
 
 export interface Category {
   id: CategoryId;
