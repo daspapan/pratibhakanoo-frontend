@@ -29,6 +29,10 @@ const en = {
     play: "Play",
     empty: "New stories in this shelf soon.",
     min: "min",
+    prev: "Previous page",
+    next: "Next page",
+    page: "Page",
+    pageOf: "Page {page} of {total} · swipe for more",
   },
   audiences: {
     title: "Stories for every circle",
@@ -116,6 +120,10 @@ const hi: Dictionary = {
     play: "सुनें",
     empty: "इस शेल्फ़ में जल्द नई कहानियाँ।",
     min: "मिनट",
+    prev: "पिछला पेज",
+    next: "अगला पेज",
+    page: "पेज",
+    pageOf: "पेज {page} / {total} · और देखने के लिए स्वाइप करें",
   },
   audiences: {
     title: "हर समूह के लिए कहानियाँ",

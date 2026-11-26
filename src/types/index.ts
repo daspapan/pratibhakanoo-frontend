@@ -10,6 +10,8 @@ export interface Category {
 
 export interface Story {
   id: string;
+  /** Date posted, yyyy-mm-dd. Used to show the newest stories first. */
+  publishedAt: string;
   title: string;
   /** Small label above the title, e.g. "Series · Episode 4" */
   kicker: string;
