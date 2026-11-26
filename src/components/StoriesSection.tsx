@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useLanguage } from "@/context/LanguageContext";
-import { CATEGORIES, IG_KIDS, STORIES } from "@/data/stories";
+import { CATEGORIES, CHANNEL_URL, STORIES } from "@/data/stories";
 import type { CategoryId } from "@/types";
 import Reveal from "./Reveal";
 import StoryCard from "./StoryCard";
@@ -47,7 +47,7 @@ export default function StoriesSection() {
 
       <div className="flex items-baseline justify-between pt-5">
         <h2 className="text-[26px] font-extrabold md:text-3xl">{t.stories.title}</h2>
-        <a href={IG_KIDS} target="_blank" rel="noopener noreferrer" className="text-[15px] font-bold">
+        <a href={`${CHANNEL_URL}/shorts`} target="_blank" rel="noopener noreferrer" className="text-[15px] font-bold">
           {t.stories.seeAll}
         </a>
       </div>

@@ -47,9 +47,10 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const play = useCallback((story: Story) => {
-    // No audio file yet: send people to the video instead.
+    // No audio file yet: send people to the video instead (YouTube first, else Instagram).
     if (!story.audioUrl) {
-      window.open(story.youtubeUrl, "_blank", "noopener,noreferrer");
+      const videoUrl = story.youtubeUrl ?? story.instagramUrl;
+      if (videoUrl) window.open(videoUrl, "_blank", "noopener,noreferrer");
       return;
     }
     const audio = audioRef.current;

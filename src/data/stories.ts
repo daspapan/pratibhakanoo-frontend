@@ -22,6 +22,15 @@ export const CATEGORIES: Category[] = [
 // TODO: replace titles, youtubeUrl and durations with the real videos.
 export const STORIES: Story[] = [
   {
+    id: "Df94PH5S9TF",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
+    title: "Kuckle Starts School",
+    kicker: "Kuckle's Adventures · Episode 4",
+    category: "moral",
+    language: "English",
+    youtubeUrl: `https://www.instagram.com/story_with_pratibha/reel/DgKpEa3JCbw/` // `https://www.youtube.com/shorts/1ChTP67vR_g` // `${IG_KIDS}/Df94PH5S9TE/`,
+  },
+  {
     id: "Df94PH5S9TE",
     thumbnail: "/images/stories/Df94PH5S9TE.webp",
     title: "Kuckle Starts School",
