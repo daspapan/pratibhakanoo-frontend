@@ -23,6 +23,7 @@ export const CATEGORIES: Category[] = [
 export const STORIES: Story[] = [
   {
     id: "Df94PH5S9TF",
+    publishedAt: "2026-11-20",
     thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "Kuckle Starts School",
     kicker: "Kuckle's Adventures · Episode 4",
@@ -32,16 +33,18 @@ export const STORIES: Story[] = [
   },
   {
     id: "Df94PH5S9TE",
-    thumbnail: "/images/stories/Df94PH5S9TE.webp",
+    publishedAt: "2026-11-20",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "Kuckle Starts School",
     kicker: "Kuckle's Adventures · Episode 4",
     category: "moral",
     language: "English",
-    instagramUrl: `${IG_KIDS}/Df94PH5S9TE/`,
+    instagramUrl: `${IG_KIDS}/reel/Df94PH5S9TE/`,
   },
   {
     id: "kuckle-ep4",
-    thumbnail: "/images/stories/kuckle-ep4.webp",
+    publishedAt: "2024-06-01",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "Kuckle's Adventure",
     kicker: "Series · Episode 4",
     category: "bedtime",
@@ -50,7 +53,8 @@ export const STORIES: Story[] = [
   },
   {
     id: "four-voices",
-    thumbnail: "/images/stories/four-voices.webp",
+    publishedAt: "2024-06-01",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "One story, four voices",
     kicker: "Voices",
     category: "bedtime",
@@ -59,7 +63,8 @@ export const STORIES: Story[] = [
   },
   {
     id: "kuckle-origin",
-    thumbnail: "/images/stories/kuckle-origin.webp",
+    publishedAt: "2024-06-01",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "The real story behind Kuckle the turtle",
     kicker: "Behind the story",
     category: "moral",
@@ -68,7 +73,8 @@ export const STORIES: Story[] = [
   },
   {
     id: "hindi-rhyme-1",
-    thumbnail: "/images/stories/hindi-rhyme.webp",
+    publishedAt: "2024-06-01",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "नन्ही चिड़िया", // sample title
     kicker: "Rhyme · हिंदी",
     category: "rhymes",
@@ -77,7 +83,8 @@ export const STORIES: Story[] = [
   },
   {
     id: "DI6Vky4MlmO",
-    thumbnail: "/images/stories/moms-to-be.webp",
+    publishedAt: "2024-06-01",
+    thumbnail: "/images/stories/Df94PH5S9TF.webp",
     title: "A story for the little one on the way",
     kicker: "For moms-to-be",
     category: "moms",
@@ -85,3 +92,8 @@ export const STORIES: Story[] = [
     youtubeUrl: CHANNEL_URL,
   },
 ];
+
+/** All stories, newest first. Use this everywhere instead of STORIES. */
+export const STORIES_NEWEST = [...STORIES].sort((a, b) =>
+  b.publishedAt.localeCompare(a.publishedAt)
+);
