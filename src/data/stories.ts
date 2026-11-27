@@ -24,6 +24,16 @@ export const CATEGORIES: Category[] = [
 // TODO: replace titles, youtubeUrl and durations with the real videos.
 export const STORIES: Story[] = [
   {
+    id: "DgPyl6NJ70O",
+    publishedAt: "2026-11-27",
+    thumbnail: "/images/stories/DgPyl6NJ70O.webp",
+    title: "Kuckle Tells the Truth",
+    kicker: "Kuckle's Adventures · Episode 7",
+    category: "moral",
+    language: "English",
+    instagramUrl: `${IG_KIDS}/DgPyl6NJ70O/`,
+  },
+  {
     id: "DgNN2rnpGqe",
     publishedAt: "2026-11-26",          // Instagram post date, see question 1
     thumbnail: "/images/stories/DgNN2rnpGqe.webp",
